@@ -1,0 +1,70 @@
+
+		html { 
+			background: #aaa;
+			font-family: 'helvetica', arial;
+			font-style: bold;
+		}
+
+		#container {
+			margin: 20px auto;
+			width: 850px;
+			height: 700px;
+			background: #a99;
+			border: 4px solid #a33;
+			border-radius: 180px;
+		}
+
+		h1 {
+			margin-left: 2.3em;
+		}
+
+		.content {
+			padding: 2em;
+			background-color: #fff;
+			border-radius: 25px;
+			width: 680px;
+			margin: 10px auto;
+		}
+
+		.tabList {
+			list-style: none;
+			margin-top: 2.75em;
+			margin-left: 4.75em;
+			padding: 0;
+		}
+
+		.tabList li {
+			display: inline-block;
+			cursor: pointer;
+			margin-right: 5px;
+			padding: 15px;
+			color: #351;
+			background: #ccc;
+			border-top: 1px solid rgba(50, 50, 50, 0.2);
+			border-left: 1px solid rgba(50, 50, 50, 0.2);
+			border-right: 1px solid rgba(50, 50, 50, 0.2);
+			border-radius: 50%;
+			box-shadow: 5px 5px 5px #222;
+			border: 2px solid #444;
+		}
+
+		li:hover {
+			background-color: #eee;
+		}
+
+		.tabList li.active {
+			background: #fff;
+			border: 2px solid #f44;
+		}
+
+		.tab {
+			display: none;
+		}
+
+		.tab.active {
+			display: block;
+		}
+
+
+		
+	
